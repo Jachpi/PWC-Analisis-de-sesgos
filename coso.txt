@@ -1,0 +1,267 @@
+
+=== CORRELATION MATRIX (NUMERIC COLUMNS) ===
+                                   loan_amount  loan_to_value_ratio  \
+loan_amount                           1.000000             0.108299
+loan_to_value_ratio                   0.108299             1.000000
+interest_rate                        -0.383035            -0.177051
+rate_spread                          -0.379191            -0.071948
+total_loan_costs                      0.335037             0.224730
+origination_charges                   0.150346             0.113362
+discount_points                       0.287976             0.089207
+lender_credits                        0.336972             0.048790
+loan_term                            -0.000945            -0.013987
+intro_rate_period                     0.245842             0.058900
+property_value                        0.095103            -0.028402
+total_units                           0.007643             0.002332
+income                                0.176006             0.010739
+tract_population                      0.000680             0.014011
+tract_minority_population_percent     0.001736             0.042813
+ffiec_msa_md_median_family_income     0.071581            -0.000918
+tract_to_msa_income_percentage        0.103705            -0.033069
+tract_owner_occupied_units           -0.006103            -0.015194
+tract_one_to_four_family_homes       -0.020503            -0.016242
+tract_median_age_of_housing_units    -0.018613             0.003458
+
+                                   interest_rate  rate_spread  \
+loan_amount                            -0.383035    -0.379191
+loan_to_value_ratio                    -0.177051    -0.071948
+interest_rate                           1.000000     0.887837
+rate_spread                             0.887837     1.000000
+total_loan_costs                       -0.294058    -0.393984
+origination_charges                    -0.197606    -0.252133
+discount_points                        -0.291124    -0.222810
+lender_credits                         -0.079036    -0.062547
+loan_term                               0.354739     0.095327
+intro_rate_period                      -0.552816    -0.288887
+property_value                         -0.058139    -0.203397
+total_units                            -0.026052    -0.000994
+income                                 -0.060588    -0.144667
+tract_population                        0.001102    -0.008169
+tract_minority_population_percent      -0.079532    -0.005524
+ffiec_msa_md_median_family_income      -0.017115    -0.092515
+tract_to_msa_income_percentage          0.024833    -0.145258
+tract_owner_occupied_units              0.051243    -0.003519
+tract_one_to_four_family_homes          0.038725     0.010397
+tract_median_age_of_housing_units       0.036125     0.034389
+
+                                   total_loan_costs  origination_charges  \
+loan_amount                                0.335037             0.150346
+loan_to_value_ratio                        0.224730             0.113362
+interest_rate                             -0.294058            -0.197606
+rate_spread                               -0.393984            -0.252133
+total_loan_costs                           1.000000             0.802151
+origination_charges                        0.802151             1.000000
+discount_points                            0.670514             0.740448
+lender_credits                             0.111966             0.052006
+loan_term                                  0.288426             0.167244
+intro_rate_period                          0.001511            -0.020068
+property_value                             0.177865             0.061697
+total_units                                0.070649             0.035808
+income                                     0.124644             0.037890
+tract_population                           0.063442             0.060251
+tract_minority_population_percent          0.171308             0.093265
+ffiec_msa_md_median_family_income          0.080436             0.025821
+tract_to_msa_income_percentage             0.039111             0.019216
+tract_owner_occupied_units                -0.003167             0.011033
+tract_one_to_four_family_homes            -0.007915             0.002298
+tract_median_age_of_housing_units         -0.071943            -0.086186
+
+                                   discount_points  lender_credits  loan_term  \
+loan_amount                               0.287976        0.336972  -0.000945
+loan_to_value_ratio                       0.089207        0.048790  -0.013987
+interest_rate                            -0.291124       -0.079036   0.354739
+rate_spread                              -0.222810       -0.062547   0.095327
+total_loan_costs                          0.670514        0.111966   0.288426
+origination_charges                       0.740448        0.052006   0.167244
+discount_points                           1.000000        0.105275   0.071859
+lender_credits                            0.105275        1.000000   0.037914
+loan_term                                 0.071859        0.037914   1.000000
+intro_rate_period                         0.020232       -0.037713  -0.220607
+property_value                            0.205171        0.324621   0.006648
+total_units                               0.028872       -0.003164  -0.007774
+income                                    0.135425        0.178830   0.004752
+tract_population                          0.117940        0.033767   0.013658
+tract_minority_population_percent         0.116457        0.063118  -0.013820
+ffiec_msa_md_median_family_income         0.102689        0.160563   0.035302
+tract_to_msa_income_percentage            0.076934        0.106680   0.058522
+tract_owner_occupied_units                0.046953        0.009011   0.038082
+tract_one_to_four_family_homes            0.016634       -0.019040   0.017361
+tract_median_age_of_housing_units        -0.163080       -0.033494   0.016483
+
+                                   intro_rate_period  property_value  \
+loan_amount                                 0.245842        0.095103
+loan_to_value_ratio                         0.058900       -0.028402
+interest_rate                              -0.552816       -0.058139
+rate_spread                                -0.288887       -0.203397
+total_loan_costs                            0.001511        0.177865
+origination_charges                        -0.020068        0.061697
+discount_points                             0.020232        0.205171
+lender_credits                             -0.037713        0.324621
+loan_term                                  -0.220607        0.006648
+intro_rate_period                           1.000000        0.070261
+property_value                              0.070261        1.000000
+total_units                                 0.002019        0.006006
+income                                      0.074450        0.030934
+tract_population                           -0.017905        0.004866
+tract_minority_population_percent           0.019106        0.005398
+ffiec_msa_md_median_family_income           0.164018        0.057018
+tract_to_msa_income_percentage              0.147894        0.073096
+tract_owner_occupied_units                 -0.051349        0.003390
+tract_one_to_four_family_homes             -0.064749       -0.004086
+tract_median_age_of_housing_units          -0.013398       -0.010137
+
+                                   total_units    income  tract_population  \
+loan_amount                           0.007643  0.176006          0.000680
+loan_to_value_ratio                   0.002332  0.010739          0.014011
+interest_rate                        -0.026052 -0.060588          0.001102
+rate_spread                          -0.000994 -0.144667         -0.008169
+total_loan_costs                      0.070649  0.124644          0.063442
+origination_charges                   0.035808  0.037890          0.060251
+discount_points                       0.028872  0.135425          0.117940
+lender_credits                       -0.003164  0.178830          0.033767
+loan_term                            -0.007774  0.004752          0.013658
+intro_rate_period                     0.002019  0.074450         -0.017905
+property_value                        0.006006  0.030934          0.004866
+total_units                           1.000000  0.004082         -0.035992
+income                                0.004082  1.000000          0.001108
+tract_population                     -0.035992  0.001108          1.000000
+tract_minority_population_percent     0.093502 -0.004701          0.129248
+ffiec_msa_md_median_family_income     0.012907  0.030225          0.144544
+tract_to_msa_income_percentage       -0.067327  0.065709          0.176297
+tract_owner_occupied_units           -0.094182 -0.000183          0.778570
+tract_one_to_four_family_homes       -0.052741 -0.007441          0.721921
+tract_median_age_of_housing_units     0.019855 -0.005324         -0.238501
+
+                                   tract_minority_population_percent  \
+loan_amount                                                 0.001736
+loan_to_value_ratio                                         0.042813
+interest_rate                                              -0.079532
+rate_spread                                                -0.005524
+total_loan_costs                                            0.171308
+origination_charges                                         0.093265
+discount_points                                             0.116457
+lender_credits                                              0.063118
+loan_term                                                  -0.013820
+intro_rate_period                                           0.019106
+property_value                                              0.005398
+total_units                                                 0.093502
+income                                                     -0.004701
+tract_population                                            0.129248
+tract_minority_population_percent                           1.000000
+ffiec_msa_md_median_family_income                           0.194182
+tract_to_msa_income_percentage                             -0.261208
+tract_owner_occupied_units                                 -0.232482
+tract_one_to_four_family_homes                             -0.166847
+tract_median_age_of_housing_units                           0.019882
+
+                                   ffiec_msa_md_median_family_income  \
+loan_amount                                                 0.071581
+loan_to_value_ratio                                        -0.000918
+interest_rate                                              -0.017115
+rate_spread                                                -0.092515
+total_loan_costs                                            0.080436
+origination_charges                                         0.025821
+discount_points                                             0.102689
+lender_credits                                              0.160563
+loan_term                                                   0.035302
+intro_rate_period                                           0.164018
+property_value                                              0.057018
+total_units                                                 0.012907
+income                                                      0.030225
+tract_population                                            0.144544
+tract_minority_population_percent                           0.194182
+ffiec_msa_md_median_family_income                           1.000000
+tract_to_msa_income_percentage                              0.079293
+tract_owner_occupied_units                                  0.099507
+tract_one_to_four_family_homes                             -0.033222
+tract_median_age_of_housing_units                           0.097294
+
+                                   tract_to_msa_income_percentage  \
+loan_amount                                              0.103705
+loan_to_value_ratio                                     -0.033069
+interest_rate                                            0.024833
+rate_spread                                             -0.145258
+total_loan_costs                                         0.039111
+origination_charges                                      0.019216
+discount_points                                          0.076934
+lender_credits                                           0.106680
+loan_term                                                0.058522
+intro_rate_period                                        0.147894
+property_value                                           0.073096
+total_units                                             -0.067327
+income                                                   0.065709
+tract_population                                         0.176297
+tract_minority_population_percent                       -0.261208
+ffiec_msa_md_median_family_income                        0.079293
+tract_to_msa_income_percentage                           1.000000
+tract_owner_occupied_units                               0.321551
+tract_one_to_four_family_homes                           0.131758
+tract_median_age_of_housing_units                       -0.153248
+
+                                   tract_owner_occupied_units  \
+loan_amount                                         -0.006103
+loan_to_value_ratio                                 -0.015194
+interest_rate                                        0.051243
+rate_spread                                         -0.003519
+total_loan_costs                                    -0.003167
+origination_charges                                  0.011033
+discount_points                                      0.046953
+lender_credits                                       0.009011
+loan_term                                            0.038082
+intro_rate_period                                   -0.051349
+property_value                                       0.003390
+total_units                                         -0.094182
+income                                              -0.000183
+tract_population                                     0.778570
+tract_minority_population_percent                   -0.232482
+ffiec_msa_md_median_family_income                    0.099507
+tract_to_msa_income_percentage                       0.321551
+tract_owner_occupied_units                           1.000000
+tract_one_to_four_family_homes                       0.846849
+tract_median_age_of_housing_units                   -0.172332
+
+                                   tract_one_to_four_family_homes  \
+loan_amount                                             -0.020503
+loan_to_value_ratio                                     -0.016242
+interest_rate                                            0.038725
+rate_spread                                              0.010397
+total_loan_costs                                        -0.007915
+origination_charges                                      0.002298
+discount_points                                          0.016634
+lender_credits                                          -0.019040
+loan_term                                                0.017361
+intro_rate_period                                       -0.064749
+property_value                                          -0.004086
+total_units                                             -0.052741
+income                                                  -0.007441
+tract_population                                         0.721921
+tract_minority_population_percent                       -0.166847
+ffiec_msa_md_median_family_income                       -0.033222
+tract_to_msa_income_percentage                           0.131758
+tract_owner_occupied_units                               0.846849
+tract_one_to_four_family_homes                           1.000000
+tract_median_age_of_housing_units                       -0.115388
+
+                                   tract_median_age_of_housing_units
+loan_amount                                                -0.018613
+loan_to_value_ratio                                         0.003458
+interest_rate                                               0.036125
+rate_spread                                                 0.034389
+total_loan_costs                                           -0.071943
+origination_charges                                        -0.086186
+discount_points                                            -0.163080
+lender_credits                                             -0.033494
+loan_term                                                   0.016483
+intro_rate_period                                          -0.013398
+property_value                                             -0.010137
+total_units                                                 0.019855
+income                                                     -0.005324
+tract_population                                           -0.238501
+tract_minority_population_percent                           0.019882
+ffiec_msa_md_median_family_income                           0.097294
+tract_to_msa_income_percentage                             -0.153248
+tract_owner_occupied_units                                 -0.172332
+tract_one_to_four_family_homes                             -0.115388
+tract_median_age_of_housing_units                           1.000000
+
+<Figure size 1400x1000 with 2 Axes>
