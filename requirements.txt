@@ -1,3 +1,7 @@
 numpy
 matplotlib
 pandas
+aif360
+seaborn
+sklearn
+joblib
